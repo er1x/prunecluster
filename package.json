@@ -1,0 +1,15 @@
+{
+  "name": "prunecluster",
+  "version": "0.1.0",
+  "description": "A NPM version of PruneCluster",
+  "main": "prunecluster.js",
+  "author": "Emilio Grande <erixcbr@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "bundle": "browserify examples/app.js -o examples/bundle.js"
+  },
+  "devDependencies": {
+    "browserify": "^9.0.3",
+    "leaflet": "^0.7.3"
+  }
+}
