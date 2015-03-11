@@ -19,9 +19,9 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/er1x/prunecluster"
-  }
+  },
   "devDependencies": {
-    "browserify": "^9.0.3",
+    "browserify": "^9.0.3"
   },
   "dependencies": {
     "leaflet": "^0.7.3"
