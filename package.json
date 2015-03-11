@@ -4,12 +4,26 @@
   "description": "A NPM version of PruneCluster",
   "main": "prunecluster.js",
   "author": "Emilio Grande <erixcbr@gmail.com>",
+  "keywords": [
+    "leaflet",
+    "cluster",
+    "prunecluster",
+    "browserify",
+    "commonjs",
+    "npm"
+  ],
   "license": "MIT",
   "scripts": {
     "bundle": "browserify examples/app.js -o examples/bundle.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/er1x/prunecluster"
+  }
   "devDependencies": {
     "browserify": "^9.0.3",
+  }
+  "dependencies": {
     "leaflet": "^0.7.3"
   }
 }
